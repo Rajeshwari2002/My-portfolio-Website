@@ -48,7 +48,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 text-center ">
         {/* Profile Image */}
 
         <div className="w-40 h-40 mx-auto mb-8 mt-[80px] rounded-full overflow-hidden border-4 border-cyan-400">
@@ -60,7 +60,7 @@ const Hero = () => {
         </div>
 
         {/* Main Content */}
-        <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-cyan-200 to-purple-200 bg-clip-text text-transparent">
+        <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-cyan-200 to-purple-200 bg-clip-text text-transparent px-2">
           Rajeshwari G
         </h1>
 
@@ -77,7 +77,7 @@ const Hero = () => {
         </div>
 
         {/* Stats */}
-        <div className="flex justify-center gap-8 mb-12 text-center">
+        <div className="flex justify-center gap-3 md:gap-8 mb-12 text-center ">
           <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-4 border border-slate-700">
             <div className="text-2xl font-bold text-cyan-400">2+</div>
             <div className="text-slate-400 text-sm">Years Experience</div>
@@ -93,7 +93,7 @@ const Hero = () => {
         </div>
 
         {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 px-5 md:px-0">
           <button
             onClick={handleDownloadResume}
             className="bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-500/25 flex items-center justify-center space-x-2"

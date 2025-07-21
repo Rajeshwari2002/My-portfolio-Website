@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 import myImage from "../assets/myPic.jpeg";
 const Hero = () => {
   const [text, setText] = useState("");
-  const fullText = "Software Engineer";
+  const fullText = "Software Developer";
 
   useEffect(() => {
     let index = 0;
